@@ -31,27 +31,43 @@
     font-weight: normal;
 }
 
-#screen1 {
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.screen1 {
     text-align: center;
     max-width: 100%;
-	display: block;
-	height: auto;
+	display: inline-block;
 	overflow: auto;
 	padding: 3vmax 20vmin;
 	font-size: 36px;
 
+
 }
 
-#screen1 .screenbg {
+.screen1 .screenbg {
 	width: 100%;
-	height: auto;
 	position: absolute;
 	top:0;
 	left: 0;
 	z-index: -5;
 		
 }
-#screen1 h1 {
+.screen1 h1 {
     font-size: 2.5vw;
     font-family: "PatuaOne";
     color: rgb(255, 255, 255);
@@ -61,7 +77,7 @@
     line-height: 2em;
     display: block;
 }
-#screen1 h2 {
+.screen1 h2 {
     font-size: 5vw;
     font-family: "PatuaOne";
     color: rgb(225, 191, 23);
@@ -69,7 +85,7 @@
     line-height: 2em;
     display: block;
 }
-#screen1 h3 {
+.screen1 h3 {
     font-size: 3vw;
     font-family: "PatuaOne";
     color: rgb(255, 255, 255);
@@ -79,7 +95,7 @@
     display: block;
 
 }
-#screen1 h4 {
+.screen1 h4 {
     font-size: 2vw;
     font-family: "Gotham-Medium";
     color: rgb(255, 255, 255);
@@ -87,6 +103,22 @@
     text-align: center;
     line-height: 1em;
     display: inline-block;
+}
+.table {
+		padding: 0 20vmin;
+}
+.tabletext h1 {
+	font-size: 2.5vw;
+    font-family: "Patua One";
+    color: rgb(13, 66, 56);
+    text-align: center;
+	margin-top : 6em;
+}
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
 }
 
 

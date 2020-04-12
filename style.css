@@ -77,7 +77,7 @@
     z-index: 117;
     line-height: 1;
     display: block;
-	margin-bottom: 5vh;
+	margin-bottom: 5vmax;
 }
 #screen1 h4 {
     font-size: 2vw;
@@ -86,7 +86,6 @@
     z-index: 115;
     text-align: center;
     line-height: 1;
-    max-width: 650px;
     display: inline-block;
 }
 

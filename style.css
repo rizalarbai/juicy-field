@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "Gotham-Light";
+    src: url('fonts/GothaProLig.otf') format("opentype");
+    font-weight: lighter;
+}
+@font-face {
+    font-family: "Gotham-Regular";
+    src: url('fonts/GothaProReg.otf') format("opentype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Gotham-Medium";
+    src: url('fonts/GothaProLig.otf') format("opentype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Gotham-Bold";
+    src: url('fonts/GothaProBol.otf') format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Gotham-Black";
+    src: url('fonts/GothaProBla.otf') format("opentype");
+    font-weight: bolder;
+}
+@font-face {
+    font-family: "PatuaOne";
+    src: url('fonts/PatuaOne-Regular.ttf') format("truetype");
+    font-weight: normal;
+}
+
+#screen1 {
+    text-align: center;
+    max-width: 100%;
+	display: block;
+	height: auto;
+	overflow: auto;
+	padding: 10vw;
+	font-size: 36px;
+
+}
+
+#screen1 .screenbg {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: -5;
+		
+}
+#screen1 h1 {
+    font-size: 3rem;
+    font-family: "PatuaOne";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    z-index: 1;
+    line-height: 3;
+    display: block;
+}
+#screen1 h2 {
+    font-size: 5vw;
+    font-family: "PatuaOne";
+    color: rgb(225, 191, 23);
+    text-align: center;
+    line-height: 2;
+    display: block;
+}
+#screen1 h3 {
+    font-size: 2vw;
+    font-family: "PatuaOne";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    z-index: 117;
+    line-height: 1;
+    display: block;
+}
+#screen1 h4 {
+    font-size: 22px;
+    font-family: "Gotham-Medium";
+    color: rgb(255, 255, 255);
+    z-index: 115;
+    text-align: center;
+    line-height: 1;
+    max-width: 650px;
+    display: inline-block;
+}

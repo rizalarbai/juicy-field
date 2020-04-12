@@ -37,7 +37,7 @@
 	display: block;
 	height: auto;
 	overflow: auto;
-	padding: 3vmax 34vmin;
+	padding: 3vmax 25vmin;
 	font-size: 36px;
 
 }
@@ -88,4 +88,10 @@
     line-height: 1;
     max-width: 650px;
     display: inline-block;
+}
+
+@media screen and (max-width : 450px) {
+	#screen1  {
+		padding: 
+	}
 }

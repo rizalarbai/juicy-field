@@ -32,10 +32,23 @@
 body {
     position: relative;
 }
+.right-leaf {
+	position: absolute;
+	width: 12vw;
+	right: 0;
+	top: 67vh;
+}
+.left-leaf {
+	position: absolute;
+	width: 10vw;
+	left: 0;
+	top: 107vh;
+}
 .section {
     clear: both;
     padding: 0px;
     margin: 0px;
+	z-index: 0;
 }
 .group:before, .group:after {
     content: "";

@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 @font-face {
     font-family: "Gotham-Light";
     src: url('fonts/GothaProLig.otf') format("opentype");
@@ -30,42 +29,35 @@
     src: url('fonts/PatuaOne-Regular.ttf') format("truetype");
     font-weight: normal;
 }
-
 .section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
+    clear: both;
+    padding: 0px;
+    margin: 0px;
 }
-.group:before,
-.group:after {
-    content:"";
-    display:table;
+.group:before, .group:after {
+    content: "";
+    display: table;
 }
 .group:after {
-    clear:both;
+    clear: both;
 }
 .group {
-    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
-
 .screen1 {
     text-align: center;
     max-width: 100%;
-	display: inline-block;
-	overflow: auto;
-	padding: 3vmax 20vmin;
-	font-size: 36px;
-
-
+    display: inline-block;
+    overflow: auto;
+    padding: 3vmax 20vmin;
+    font-size: 36px;
 }
-
 .screen1 .screenbg {
-	width: 100%;
-	position: absolute;
-	top:0;
-	left: 0;
-	z-index: -5;
-		
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -5;
 }
 .screen1 h1 {
     font-size: 2.5vw;
@@ -93,7 +85,6 @@
     z-index: 117;
     line-height: 2em;
     display: block;
-
 }
 .screen1 h4 {
     font-size: 2vw;
@@ -105,20 +96,186 @@
     display: inline-block;
 }
 .table {
-		padding: 0 20vmin;
+    padding: 3vmax 20vmin;
 }
 .tabletext h1 {
-	font-size: 2.5vw;
+    font-size: 36px;
     font-family: "Patua One";
     color: rgb(13, 66, 56);
     text-align: center;
-	margin-top : 6em;
+    margin-top : 15vmax;
+}
+.table .tableheader {
+    display: inline-block;
+}
+.plants {
+    display: inline-block;
+    position: relative;
+    line-height: 5px;
+}
+.input-text {
+    padding: 40px 30px 40px 60px;
+    position: absolute;
+    top: 0px;
+}
+.section .input-text h3 {
+    font-family: "PatuaOne";
+    font-size: 20px;
+    color: #fff;
+    line-height: 1;
+    margin-top: 1em;
+}
+.section .input-text h4 {
+    font-family: "PatuaOne";
+    font-size: 28px;
+    color: #fff;
+    backgrond: #fff;
+    line-height: 2;
+}
+.section .input-text h5 {
+    font-family: "Gotham-Light";
+    font-size: 12px;
+    color: #9f9f9f;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px;
+}
+.section .box {
+    background-color: #fff;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: -25px
+}
+.how {
+    width: 18.72%;
+}
+.flash {
+    width: 18.72%;
+}
+.mint {
+    width: 18.72%;
+}
+.kush {
+    width: 18.72%;
+}
+.haze {
+    width: 18.72%;
+}
+.table h2 {
+    font-size: 28px;
+    font-family: "Patua One";
+    color: rgb(13, 66, 56);
+    line-height: 1.464;
+    text-align: left;
+    display: inline-block;
+    max-width: 150px;
+    float: left;
+}
+.table #arrow {
+    display: inline-block;
+    padding: 120px 0;
+    vertical-align: top;
+}
+.table #arrow-small {
+    display: none;
+    vertical-align: middle;
+    padding: 42px 0;
+}
+.table #input {
+    display: inline-block;
+}
+.table .maintable table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: "PatuaOne";
+    font-size: 18px;
+    color: #62ba8b;
+    margin-bottom: -100px;
+}
+.col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+.col:first-child {
+    margin-left: 0;
+}
+#table .maintable table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: "PatuaOne";
+    font-size: 18px;
+    color: #62ba8b;
+    margin-bottom: -100px;
+}
+th {
+    color: transparent;
+    padding: 20px 0;
+    font-size: 0px;
+}
+th, td {
+    text-align: center;
+    padding: 8px;
+    max-width: 20px;
+}
+tr td:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #0d4238;
+    padding-left: 1vmax;
+    max-width: 0px;
+    text-align: left;
+	padding: 5px;
+}
+tr td:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-right: 1.2vmax;
+}
+tr:nth-child(even) {
+    background-color: #f3faf6;
+}
+
+@media only screen and (max-width: 1700px) { 
+	.table {
+    padding: 3vmax 5vw;
+}
 }
 
 @media only screen and (max-width: 480px) {
-	.col { 
-		margin: 1% 0 1% 0%;
-	}
+.col {
+    margin: 1% 0 1% 0%;
 }
-
-
+.how {
+    width: 100%;
+}
+.flash {
+    width: 100%;
+}
+.mint {
+    width: 100%;
+}
+.kush {
+    width: 100%;
+}
+.haze {
+    width: 100%;
+}
+.tabletext h1 {
+    margin-top: 0.5em;
+}
+.table #arrow-small {
+    display: inline-block;
+}
+.table #arrow {
+    display: none;
+}
+	tr td:first-child {
+		padding: 20px;
+	}
+.table .maintable th {
+    color: #0d4238;
+    font-size: 12px;
+}
+}

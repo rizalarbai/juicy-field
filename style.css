@@ -29,6 +29,9 @@
     src: url('fonts/PatuaOne-Regular.ttf') format("truetype");
     font-weight: normal;
 }
+body {
+    position: relative;
+}
 .section {
     clear: both;
     padding: 0px;
@@ -217,7 +220,7 @@ th {
 th, td {
     text-align: center;
     padding: 8px;
-    max-width: 20px;
+    max-width: 18.79%;
 }
 tr td:first-child {
     border-top-left-radius: 20px;
@@ -226,7 +229,6 @@ tr td:first-child {
     padding-left: 1vmax;
     max-width: 0px;
     text-align: left;
-	padding: 5px;
 }
 tr td:last-child {
     border-top-right-radius: 20px;
@@ -236,10 +238,101 @@ tr td:last-child {
 tr:nth-child(even) {
     background-color: #f3faf6;
 }
+.footer {
+    max-width: 100%;
+    background: url("../images/footer-bg1.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    z-index: 0;
+    padding: 3vmax 20vmin;
+    margin-top: 20vh;
+}
+.footer #main-footer {
+    max-width: 100%;
+    z-index: 0;
+    padding: 400px 0px 650px 0px;
+}
+.footer .left-footer {
+    float: left;
+    max-width: 70%;
+    display: inline-block;
+}
+.footer .left-footer h1 {
+    font-size: 3vw;
+    font-family: "Patua One";
+    color: rgb(13, 66, 56);
+    text-align: left;
+    display: block;
+}
+.footer .left-footer ul {
+    padding-bottom: 60px;
+}
+.footer .left-footer .list1 {
+    font-size: 1.4vw;
+    font-family: "Gotham Pro";
+    color: rgb(13, 66, 56);
+    line-height: 1.667;
+    text-align: left;
+    list-style: none;
+    margin-left: -30px;
+    display: inline-block;
+}
+.footer .left-footer .list1 li {
+    padding: 15px 0;
+}
+.footer .left-footer .list2 {
+    font-size: 1.4vw;
+    font-family: "Gotham Pro";
+    color: rgb(13, 66, 56);
+    line-height: 1.667;
+    text-align: left;
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer .left-footer .list2 li {
+    padding: 15px 0;
+}
+.footer .right-footer {
+    max-width: 30%;
+    margin-right: -80px;
+    position: relative;
+    padding: 2vw 0vw 2vw 11vw;
+}
+.footer .right-footer h1 {
+    font-size: 2vw;
+    font-family: "Patua One";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    z-index: 13;
+}
+.footer .right-footer .button {
+    background-image: url("../images/tel-button.png") no-repeat center center;
+    background-size: contain;
+    transform: scale(0.5);
+    padding-left: 80px;
+    margin-top: -20px;
+    position: relative;
+}
+.leaf {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 50vw;
+}
+.tele {
+    padding: 40px 30px 40px 60px;
+    position: absolute;
+    top: 0px;
+}
 
-@media only screen and (max-width: 1700px) { 
-	.table {
+@media only screen and (max-width: 1700px) {
+.table {
     padding: 3vmax 5vw;
+}
+.footer .right-footer {
+    padding: 5vw 5vw 5vw 5vw;
 }
 }
 
@@ -271,11 +364,90 @@ tr:nth-child(even) {
 .table #arrow {
     display: none;
 }
-	tr td:first-child {
-		padding: 20px;
-	}
+tr td:first-child {
+    padding: 20px 40px 20px 20px
+}
 .table .maintable th {
     color: #0d4238;
     font-size: 12px;
+}
+.footer {
+    background-image: url("../images/footer-bg1-small.png");
+    background-size: cover;
+    padding: 230px 0px 0px 0px;
+}
+.footer #main-footer {
+    padding: 280px 0 0px 0;
+    margin-top: -120px
+}
+.footer .left-footer h1 {
+    font-size: 36px;
+    padding-left: 40px;
+}
+.footer .left-footer {
+    display: block;
+    float: none;
+    max-width: 100%;
+    margin-bottom: -50px;
+}
+
+.footer .right-footer h1 {
+    padding: 0 80px;
+    font-size: 15px;
+    max-width: 100%;
+    display: block;
+    font-family: "PatuaOne";
+}
+.footer .left-footer {
+ width: 100% padding :0;
+}
+.footer .right-footer {
+    width: 100%;
+    padding: 0;
+	margin-top: 120px;
+}
+.footer .left-footer .list1 {
+    font-size: 11px;
+    max-width: 60%;
+    padding: 0 0 0 10px;
+    font-family: "PatuaOne"
+}
+.footer .left-footer .list2 {
+    font-size: 11px;
+    max-width: 40%;
+    padding: 0;
+    font-family: "PatuaOne";
+    z-index: 2;
+}
+.footer .left-footer .list-icon {
+    transform: scale(0.5);
+    margin-right: -10px;
+}
+.footer .left-footer .list1 li {
+    padding: 5px 0;
+}
+.footer .left-footer .list2 li {
+    padding: 5px 0;
+}
+.footer .right-footer .button {
+    transform: scale(0.4);
+    padding: 0;
+    display: block;
+    max-width: 100%;
+    margin: auto;
+	margin-bottom: 35px
+}
+.footer .left-footer .list1 li {
+    padding: 5px 0;
+}
+.footer .left-footer .list1 li .crowd {
+    padding: 5px 0;
+    list-style-image: url("../images/crowdgrowing.png");
+}
+.footer .left-footer .list2 li {
+    padding: 5px 0;
+}
+.leaf {
+    width: 100vw;
 }
 }

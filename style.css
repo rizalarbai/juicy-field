@@ -258,7 +258,6 @@ tr:nth-child(even) {
 }
 .footer {
     max-width: 100%;
-
     z-index: 0;
     padding: 3vmax 20vmin;
     margin-top: 20vh;

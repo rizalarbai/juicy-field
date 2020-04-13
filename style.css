@@ -369,6 +369,11 @@ tr:nth-child(even) {
 .footer .right-footer {
     padding: 5vw 5vw 5vw 5vw;
 }
+.footer .right-footer {
+    width: 30%;
+    position: relative;
+    padding: 6vw 0vw 2vw 11vw;
+}
 }
 
 @media only screen and (max-width: 480px) {

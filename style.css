@@ -294,7 +294,7 @@ tr:nth-child(even) {
     padding: 15px 0;
 }
 .footer .right-footer {
-    max-width: 30%;
+    width: 30%;
     margin-right: -80px;
     position: relative;
     padding: 2vw 0vw 2vw 11vw;
@@ -374,11 +374,7 @@ tr td:first-child {
 .footer {
     background-image: url("../images/footer-bg1-small.png");
     background-size: cover;
-    padding: 230px 0px 0px 0px;
-}
-.footer #main-footer {
-    padding: 280px 0 0px 0;
-    margin-top: -120px
+    padding: 20px 0px 0px 15px;
 }
 .footer .left-footer h1 {
     font-size: 36px;
@@ -391,20 +387,21 @@ tr td:first-child {
     margin-bottom: -50px;
 }
 
-.footer .right-footer h1 {
-    padding: 0 80px;
-    font-size: 15px;
-    max-width: 100%;
+.footer .right-footer h1 {  
+    font-size: 18px;
+    width: 100%;
     display: block;
     font-family: "PatuaOne";
+	margin-bottom: 20px;
 }
 .footer .left-footer {
- width: 100% padding :0;
+ width: 100%;
+padding :0;
 }
 .footer .right-footer {
-    width: 100%;
+    width: 55%;
     padding: 0;
-	margin-top: 120px;
+	margin: 120px 50px 0 80px;
 }
 .footer .left-footer .list1 {
     font-size: 11px;
@@ -430,12 +427,11 @@ tr td:first-child {
     padding: 5px 0;
 }
 .footer .right-footer .button {
-    transform: scale(0.4);
     padding: 0;
     display: block;
     max-width: 100%;
-    margin: auto;
-	margin-bottom: 35px
+	margin-bottom: 60px;
+    
 }
 .footer .left-footer .list1 li {
     padding: 5px 0;

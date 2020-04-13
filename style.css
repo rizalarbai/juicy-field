@@ -327,6 +327,23 @@ tr:nth-child(even) {
     top: 0px;
 }
 
+#bg-footer {
+	background: #f3faf6;
+	width: 100%;
+	height: 20%;
+	position: absolute;
+	bottom: 85px;
+	z-index: -2;
+	transform: skewY(-5deg);
+}
+#bg-footer2 {
+	background: #f3faf6;
+	width: 100%;
+	height: 10%;
+	position: absolute;
+	bottom: 0;
+	z-index: -2;
+}
 @media only screen and (max-width: 1700px) {
 .table {
     padding: 3vmax 5vw;
@@ -446,4 +463,7 @@ padding :0;
 .leaf {
     width: 100vw;
 }
+	#bg-footer {
+			height: 18%;
+	}
 }

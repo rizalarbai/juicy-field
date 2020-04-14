@@ -359,7 +359,7 @@ tr:nth-child(even) {
     z-index: -2;
 }
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (min-width: 800px) and (max-width: 1025px) {
 .right-footer {
     width: 30%;
     position: relative;
@@ -414,6 +414,15 @@ tr:nth-child(even) {
     padding-left: 120px;
     vertical-align: top;
 }
+	#bg-footer {
+		height: 20%
+	}
+	
+	.footer {
+		padding-top: 120px;
+	}
+	
+	
 }
 
 @media only screen and (max-width: 1700px) {
@@ -428,9 +437,16 @@ tr:nth-child(even) {
     position: relative;
     padding: 6vw 0vw 2vw 11vw;
 }
+#bg-footer {
+		height: 20%
+	}
+	
+	.footer {
+		padding-top: 250px;
+	}
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 481px) and (max-width: 800px) {
 .juicy {
     transform: scale(0.65);
 }
@@ -543,10 +559,10 @@ tr td:first-child {
     font-size: 12px;
 }
 .footer {
-    padding: 20px 0px 0px 15px;
+    padding: 60px 0px 0px 15px;
 }
 .footer .left-footer h1 {
-    font-size: 36px;
+    font-size: 20px;
     padding-left: 40px;
 }
 .footer .left-footer {
@@ -579,10 +595,11 @@ tr td:first-child {
 }
 .footer .left-footer .list2 {
     font-size: 11px;
-    max-width: 40%;
+    max-width: 50%;
     padding: 0;
     font-family: "PatuaOne";
     z-index: 2;
+	margin-left: -20px
 }
 .footer .left-footer .list-icon {
     transform: scale(0.5);
@@ -614,6 +631,39 @@ tr td:first-child {
     width: 100vw;
 }
 #bg-footer {
-    height: 18%;
+    height: 16%;
 }
+}
+
+@media only screen and (max-width: 320px) {
+	
+.footer {
+    padding: 60px 0px 0px 15px;
+}
+.footer .left-footer .list1 {
+    font-size: 9px;
+    max-width: 60%;
+    padding: 0 0 0 10px;
+    font-family: "PatuaOne";
+}
+.footer .left-footer .list2 {
+    font-size: 9px;
+    max-width: 50%;
+    padding: 0 0 0 0px;
+    font-family: "PatuaOne";
+	margin-left: -20px
+}
+.footer .right-footer h1 {
+    font-size: 14px;
+    width: 100%;
+    display: block;
+    font-family: "PatuaOne";
+    margin-bottom: 15px;
+}
+#bg-footer {
+    height: 15%;
+}
+.footer .left-footer h1 {
+		font-size: 20px
+	}
 }

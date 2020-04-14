@@ -183,7 +183,7 @@ body {
 .haze {
     width: 18.72%;
 }
-.table h2 {
+.plants h2 {
     font-size: 28px;
     font-family: "Patua One";
     color: rgb(13, 66, 56);
@@ -358,10 +358,8 @@ tr:nth-child(even) {
     bottom: 0;
     z-index: -2;
 }
-@media only screen and (max-width: 1024) {
-	
-}
-@media only screen and (max-width: 1024px) {
+
+@media only screen and (max-width: 1025px) {
 .right-footer {
     width: 30%;
     position: relative;
@@ -374,7 +372,48 @@ tr:nth-child(even) {
     margin: 18vw 6vw 2vw -6vw;
     padding-top: 3vw;
 }
-
+.input-text {
+    padding: 20px 9px 20px 30px;
+    position: absolute;
+    top: 0px;
+}
+.section .input-text h3 {
+    font-family: "PatuaOne";
+    font-size: 15px;
+    color: #fff;
+    line-height: 1;
+    margin-top: 3em;
+    padding-left: 3.9em;
+}
+.section .input-text h4 {
+    font-family: "PatuaOne";
+    font-size: 24px;
+    color: #fff;
+    backgrond: #fff;
+    line-height: 1;
+    padding-left: 2.3em;
+    padding-top: 0.5em
+}
+.box {
+    margin-top: 0.7em;
+    float: right;
+    padding-left: 2em;
+}
+.juicy {
+    transform: scale(0.7)
+}
+.how {
+    width: 15%;
+}
+.plants h2 {
+    font-size: 20px;
+    margin-top: 50px;
+}
+.table #arrow {
+    display: inline-block;
+    padding-left: 120px;
+    vertical-align: top;
+}
 }
 
 @media only screen and (max-width: 1700px) {
@@ -389,6 +428,83 @@ tr:nth-child(even) {
     position: relative;
     padding: 6vw 0vw 2vw 11vw;
 }
+}
+
+@media only screen and (max-width: 800px) {
+.juicy {
+    transform: scale(0.65);
+}
+.how {
+    width: 5%;
+}
+.table h2 {
+    font-size: 18px;
+    margin-top: 50px;
+}
+.table #arrow {
+    display: inline-block;
+    padding: 0 0 0 50px;
+    vertical-align: top;
+}
+.input-text {
+    padding: 0;
+    margin-left: 50px;
+    width: 100%
+}
+.section .input-text h3 {
+    padding: 0;
+    font-size: 15px;
+    margin: 75px 0 0 40px;
+}
+.section .input-text h4 {
+    padding: 10px 0 0 40px;
+}
+.section .box {
+    margin: 5px -5px 0 0;
+}
+#bg-footer {
+    height: 21%;
+}
+.footer {
+    padding: 50vh 5vw 0 5vw;
+}
+.footer .right-footer h1 {
+    padding : 40px 190px 10px 10px;
+	margin-left: -30px;
+  
+}
+	.footer .right-footer .button {
+		transform: scale(0.4);
+		padding-left: 0px;
+		margin-left: -60px;
+		margin-top: -40px
+	}
+.footer .left-footer {
+    width: 50%;
+}
+	.footer .right-footer{
+		width: 50%;
+	}
+	.list-icon {
+		transform: scale(0.6)
+	}
+	.footer .left-footer .list1 li {
+		padding: 10px 0px 0 0;
+		font-size: 15px;
+	}
+	.footer .left-footer .list2 li {
+		padding: 10px 0 0 0 ;
+		margin-left: -30px;
+		font-size: 15px;
+	}
+	.footer .left-footer  ul {
+		padding : 0 0 0 20px;
+	}
+	.leaf {
+		height: 140vh;
+		width: auto;
+		
+	}
 }
 
 @media only screen and (max-width: 480px) {

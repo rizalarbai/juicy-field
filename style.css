@@ -313,6 +313,7 @@ tr:nth-child(even) {
     margin-right: -80px;
     position: relative;
     padding: 2vw 0vw 2vw 11vw;
+    display: none;
 }
 .footer .right-footer h1 {
     font-size: 2vw;
@@ -335,6 +336,7 @@ tr:nth-child(even) {
     bottom: 0;
     z-index: -1;
     width: 50vw;
+    display: none;
 }
 .tele {
     padding: 40px 30px 40px 60px;
@@ -358,15 +360,33 @@ tr:nth-child(even) {
     bottom: 0;
     z-index: -2;
 }
+.right-footer1 {
+    width: 70%;
+    display: inline-block;
+    height: auto;
+    position: relative;
+    float: right;
+    margin-right: -250px;
+    margin-top: -800px;
+}
+.right-footer-leaf {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+}
 
 @media only screen and (min-width: 800px) and (max-width: 1025px) {
 .right-footer {
     width: 30%;
     position: relative;
     margin: 8vw 6vw 2vw -3vw;
+    display: none;
 }
 .leaf {
     width: 55vw;
+    display: none;
 }
 .button {
     margin: 18vw 6vw 2vw -6vw;
@@ -419,6 +439,16 @@ tr:nth-child(even) {
 }
 .footer {
     padding-top: 120px;
+}
+.right-footer1 {
+    width: 60%;
+    display: inline-block;
+    height: auto;
+    position: relative;
+    float: right;
+    margin-right: -80px;
+    margin-top: -430px;
+    margin-bottom: -20px;
 }
 }
 
@@ -481,10 +511,10 @@ tr:nth-child(even) {
     margin: 5px -5px 0 0;
 }
 #bg-footer {
-    height: 21%;
+    height: 31%;
 }
 .footer {
-    padding: 50vh 5vw 0 5vw;
+    padding: 70px 40px;
 }
 .footer .right-footer h1 {
     padding : 40px 190px 10px 10px;
@@ -520,6 +550,17 @@ tr:nth-child(even) {
 .leaf {
     height: 80vh;
     width: auto;
+    display: none;
+}
+.right-footer1 {
+    width: 70%;
+    display: inline-block;
+    height: auto;
+    position: relative;
+    float: right;
+    margin-right: -25px;
+    margin-top: -220px;
+    margin-bottom: -20px;
 }
 }
 
@@ -629,9 +670,13 @@ tr td:first-child {
 }
 .leaf {
     width: 100vw;
+    display: none;
 }
 #bg-footer {
     height: 16%;
+}
+.right-footer1 {
+    width: 100%;
 }
 }
 
@@ -664,5 +709,18 @@ tr td:first-child {
 }
 .footer .left-footer h1 {
     font-size: 20px
+}
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+.right-footer1 {
+    width: 70%;
+    display: inline-block;
+    height: auto;
+    position: relative;
+    float: right;
+    margin-right: -100px;
+    margin-top: -620px;
+    margin-bottom: -20px;
 }
 }

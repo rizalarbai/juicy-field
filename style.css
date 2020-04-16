@@ -31,6 +31,7 @@
 }
 body {
     position: relative;
+	overflow: hidden;
 }
 .right-leaf {
     position: absolute;

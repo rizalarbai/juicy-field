@@ -456,6 +456,16 @@ tr:nth-child(even) {
     margin-top: -430px;
     margin-bottom: -20px;
 }
+.right-footer1 {
+    width: 60%;
+    display: inline-block;
+    height: auto;
+    position: relative;
+    float: right;
+    margin-right: -120px;
+    margin-top: -430px;
+    margin-bottom: -20px;
+}
 }
 
 @media only screen and (max-width: 1700px) {
@@ -732,6 +742,12 @@ tr td:first-child {
     margin-top: -620px;
     margin-bottom: -20px;
 }
+	.juicy {
+		transform: scale(0.9)
+	}
+	.how {
+		width: 16%;
+	}
 }
 
 @media only screen and (max-width: 325px) {

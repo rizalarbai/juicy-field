@@ -799,3 +799,9 @@ tr td:first-child {
     margin-left: 40px;
 }
 }
+
+@media screen and (width: 834px) and (height: 1112px){
+	.right-footer1 {
+		margin-top: -300px;
+	}
+}

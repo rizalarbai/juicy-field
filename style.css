@@ -890,3 +890,16 @@ tr td:first-child {
     width: 40px;
 }
 }
+
+@media screen and (width: 1366px) and (height: 1024px) { 
+.right-footer-leaf {
+    position: relative;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -20px;
+    overflow: visible;
+    margin-left: -20px;
+}
+}

@@ -31,7 +31,6 @@
 }
 body {
     position: relative;
-	overflow: hidden;
 }
 .right-leaf {
     position: absolute;
@@ -50,6 +49,7 @@ body {
     padding: 0px;
     margin: 0px;
     z-index: 0;
+	overflow: hidden;
 }
 .group:before, .group:after {
     content: "";

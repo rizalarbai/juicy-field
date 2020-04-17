@@ -49,7 +49,7 @@ body {
     padding: 0px;
     margin: 0px;
     z-index: 0;
-	overflow: hidden;
+    overflow: hidden;
 }
 .group:before, .group:after {
     content: "";
@@ -376,8 +376,7 @@ tr:nth-child(even) {
     height: auto;
     bottom: 0;
     left: 0;
-	margin-bottom: -20px;
-
+    margin-bottom: -20px;
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1025px) {
@@ -784,7 +783,8 @@ tr td:first-child {
     margin-top: 15px;
 }
 }
-@media screen and (width: 768px) and (height: 1024px){
+
+@media screen and (width: 768px) and (height: 1024px) {
 .section .input-text h3 {
     padding: 0;
     font-size: 15px;
@@ -800,11 +800,7 @@ tr td:first-child {
     margin-bottom: -20px;
     margin-left: 40px;
 }
-.table .maintable table{
-margin-bottom: 0;
-	}
+.table .maintable table {
+    margin-bottom: 0;
 }
-
-
-
-
+}

@@ -800,6 +800,9 @@ tr td:first-child {
     margin-bottom: -20px;
     margin-left: 40px;
 }
+.table .maintable table{
+margin-bottom: 0;
+	}
 }
 
 

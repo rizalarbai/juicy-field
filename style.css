@@ -374,8 +374,10 @@ tr:nth-child(even) {
     position: relative;
     width: 100%;
     height: auto;
-    top: 0;
+    bottom: 0;
     left: 0;
+	margin-bottom: -20px;
+
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1025px) {
@@ -800,8 +802,6 @@ tr td:first-child {
 }
 }
 
-@media screen and (width: 834px) and (height: 1112px){
-	.right-footer1 {
-		margin-top: -300px;
-	}
-}
+
+
+

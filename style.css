@@ -782,3 +782,20 @@ tr td:first-child {
     margin-top: 15px;
 }
 }
+@media screen and (device-aspect-ratio: 3/4) and (-webkit-min-device-pixel-ratio: 2) {
+	.section .input-text h3 {
+    padding: 0;
+    font-size: 15px;
+    margin: 75px 0 0 40px;
+}
+.section .input-text h4 {
+    padding: 0px 0 0 40px;
+}
+.section .box {
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -20px;
+    margin-left: 40px;
+}
+}

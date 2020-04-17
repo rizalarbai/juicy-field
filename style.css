@@ -782,8 +782,8 @@ tr td:first-child {
     margin-top: 15px;
 }
 }
-@media screen and (device-aspect-ratio: 3/4){
-	.section .input-text h3 {
+@media screen and (width: 768px) and (height: 1024px){
+.section .input-text h3 {
     padding: 0;
     font-size: 15px;
     margin: 75px 0 0 40px;

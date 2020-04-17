@@ -826,13 +826,13 @@ tr td:first-child {
 .table .maintable table {
     margin-bottom: 0;
 }
-.right-footer1 {
+	.right-footer1 {
     width: 70%;
     display: inline-block;
     height: auto;
     position: relative;
     float: right;
-    margin-right: -55px;
+    margin-right: -65px;
     margin-top: -220px;
     margin-bottom: -20px;
 }

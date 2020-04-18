@@ -228,8 +228,7 @@ body {
 #table .maintable table {
     border-collapse: collapse;
     width: 100%;
-    font-family: "PatuaOne";
-    font-size: 18px;
+    font-family: "PatuaOne";    
     color: #62ba8b;
     margin-bottom: -100px;
 }
@@ -242,6 +241,7 @@ th, td {
     text-align: center;
     padding: 8px;
     max-width: 18.79%;
+	font-size: 15px;
 }
 tr td:first-child {
     border-top-left-radius: 20px;
@@ -250,6 +250,8 @@ tr td:first-child {
     padding-left: 1vmax;
     max-width: 0px;
     text-align: left;
+	
+	
 }
 tr td:last-child {
     border-top-right-radius: 20px;

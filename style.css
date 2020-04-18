@@ -235,7 +235,7 @@ body {
 th {
     color: transparent;
     padding: 20px 0;
-    font-size: 0px;
+    font-size: 15px;
 }
 th, td {
     text-align: center;
@@ -249,8 +249,7 @@ tr td:first-child {
     color: #0d4238;
     padding-left: 1vmax;
     max-width: 0px;
-    text-align: left;
-	
+    text-align: left;	
 	
 }
 tr td:last-child {
